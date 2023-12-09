@@ -1,0 +1,27 @@
+{
+  "name": "desafio3",
+  "version": "1.0.0",
+  "description": "Servidor con express",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/app.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasFernandez1/Backend_Desafio3.git"
+  },
+  "author": "Tomas Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasFernandez1/Backend_Desafio3/issues"
+  },
+  "homepage": "https://github.com/TomasFernandez1/Backend_Desafio3#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

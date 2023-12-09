@@ -1,0 +1,92 @@
+[
+    {
+        "title":"Product 1",
+        "description":"Description product 1",
+        "price":200,
+        "thumbnail": "No Image",
+        "code": "abc123",
+        "stock":25,
+        "id": 1 
+      },
+      {
+        "title":"Product 2",
+        "description":"Description product 2",
+        "price":190,
+        "thumbnail": "No Image",
+        "code": "ac2",
+        "stock":24,
+        "id": 2 
+      },
+      {
+        "title":"Product 3",
+        "description":"Description product 3",
+        "price":100,
+        "thumbnail": "No Image",
+        "code": "as2",
+        "stock":2,
+        "id": 3
+      },
+      {
+        "title":"Product 4",
+        "description":"Description product 4",
+        "price":900,
+        "thumbnail": "No Image",
+        "code": "cd2",
+        "stock":6,
+        "id": 4 
+      },
+      {
+        "title":"Product 5",
+        "description":"Description product 5",
+        "price": 50,
+        "thumbnail": "No Image",
+        "code": "sd23",
+        "stock":32,
+        "id": 5
+      },
+      {
+        "title":"Product 6",
+        "description":"Description product 6",
+        "price":2000,
+        "thumbnail": "No Image",
+        "code": "s123",
+        "stock":30,
+        "id": 6
+      },
+      {
+        "title":"Product 7",
+        "description":"Description product 7",
+        "price":200,
+        "thumbnail": "No Image",
+        "code": "abc123",
+        "stock":12,
+        "id": 7
+      },
+      {
+        "title":"Product 8",
+        "description":"Description product 8",
+        "price":600,
+        "thumbnail": "No Image",
+        "code": "sf3",
+        "stock":312,
+        "id": 8 
+      },
+      {
+        "title":"Product 9",
+        "description":"Description product 9",
+        "price":211,
+        "thumbnail": "No Image",
+        "code": "asd2",
+        "stock":25,
+        "id": 9 
+      },
+      {
+        "title":"Product 10",
+        "description":"Description product 10",
+        "price":189,
+        "thumbnail": "No Image",
+        "code": "cs1",
+        "stock":25,
+        "id": 10 
+      }
+]
