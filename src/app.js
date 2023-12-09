@@ -8,7 +8,7 @@ const app = express();
 // Endpoint of all products
 app.get("/products", async (req, res) => {
   try {
-    // Get the limit by query if exists
+    // Get the limit if it exists
     const limit = parseInt(req.query.limit, 10);
 
     // Get all products
@@ -19,7 +19,7 @@ app.get("/products", async (req, res) => {
       res.status(200).send(products);
     }
 
-    // If there is a limit slice the array and send
+    // If there is a limit slice the array
     res.status(200).send(products.slice(0, limit));
   } catch (error) {
     console.log(error);
@@ -30,7 +30,7 @@ app.get("/products", async (req, res) => {
 app.get("/products/:pid", async (req, res) => {
   try {
 
-    // Get pid by parameter
+    // Get ID
     const pid = parseInt(req.params.pid);
     const product = await pManager.getProductById(pid)
     res.send(product)
